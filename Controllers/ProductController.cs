@@ -17,6 +17,7 @@ namespace AngularWebApiApp.Controllers
             if (PgaeLoadFlag == 1) //use this only for first time page load
             {
 				//now in masterMaybe
+				//second commit?
                 //Three product added to display the data
                 products.Value.Add(new Product { ID = 1, Name = "bus", Category = "Toy", Price = 200.12M });
                 products.Value.Add(new Product { ID = 2, Name = "Car", Category = "Toy", Price = 300 });
